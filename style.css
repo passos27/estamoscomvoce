@@ -1,0 +1,105 @@
+/*
+Theme Name: Estamos com você
+Theme URI: https://estamoscomvoce.com.br
+Author: Francisco Passos
+Author URI: https://franciscopassos.com	
+Description: Tema criado para o site estamos com você
+Version: 1.0
+License: Proibida reprodução sem autorização do criador
+*/
+
+body{
+	background: #EEE;
+}
+.menu-lateral{
+	background:#081925;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 18%;
+	z-index: 999;
+	box-shadow: 10px 0px 25px #222;
+
+}
+.container-centro{
+	width: 82%;
+	float: right;
+	/*padding: 5%;*/
+}
+.sobre{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 999;
+	opacity: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	text-transform: uppercase !important;
+	color: #eee;
+}
+.sobre:hover{
+	opacity: 1;
+	transition: 0.5s linear;
+}
+.sobre button{
+	padding: 15px 0;
+	background: transparent;
+	border: 3px solid #fff;
+	color: #fff;
+	width: 80%;
+	font-size: 18px !important;
+	border-radius: 30px;
+	cursor: pointer;
+	text-transform: uppercase !important;
+}
+
+ul#menu{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	margin: 0;
+	color: #eee;
+}
+ul#menu li{
+	padding: 5% 20px;
+	width: 100%;
+	text-align: right;
+	text-transform: uppercase;
+	background: #323a3e; /* Old browsers */
+	background: -moz-linear-gradient(top, #323a3e 1%, #30383c 51%, #2e3539 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #323a3e 1%,#30383c 51%,#2e3539 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #323a3e 1%,#30383c 51%,#2e3539 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#323a3e', endColorstr='#2e3539',GradientType=0 ); /* IE6-9 */
+}
+ul#menu li:hover{
+	border-right: 20px solid #54b9df;
+	transition: 0.3s linear
+}
+.logo{
+	width: 100%;
+	margin: auto;
+	background: #fff;
+	text-align: center;
+	padding: 5px 0;
+}
+.logo img{
+	width: 70%;
+}
+.social{
+	padding: 20px;
+	text-align: center; 
+}
+.social img{
+	width: 32px !important;
+	height: 32px !important;
+	margin: 5px;
+	padding: 2px 3px;
+	border-radius: 3px;
+}
