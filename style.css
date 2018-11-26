@@ -12,6 +12,7 @@ body{
 	background: #EEE;
 }
 .menu-lateral{
+	display: block !important;
 	background:#081925;
 	position: fixed;
 	top: 0;
@@ -102,4 +103,16 @@ ul#menu li:hover{
 	margin: 5px;
 	padding: 2px 3px;
 	border-radius: 3px;
+}
+
+
+
+@media (max-width: 600px) 
+{
+  .menu-lateral{
+  	display: none !important;
+  }
+  .container-centro{
+  	width: 100%;
+  }
 }
